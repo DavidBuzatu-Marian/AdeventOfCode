@@ -19,7 +19,6 @@ unordered_set<int> getSums(queue<int> nums) {
             res.insert(numsVec[i] + numsVec[j]);
         }
     }
-
     return res;
 }
 
