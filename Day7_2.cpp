@@ -28,7 +28,6 @@ pair<int, int> DFS(vector<string> &commands, const int &cntCommand) {
             } else {
                 split[0] = "nop";
             }
-
             ++cnt;
         }
         if (split[0].compare("nop") == 0) {
